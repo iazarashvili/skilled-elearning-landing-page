@@ -25,7 +25,11 @@
         " class="get-started-inner-text">Get Started</a></div>
     </div>
     <div class="image-hero-container">
-          <img class="image-hero-desctop"  src="./img/images/image-hero-desktop.png" alt="">
+      <picture>
+        <source media="(min-width: 1440px) and (max-width: 769px)" srcset="./img/images/image-hero-desktop.png" />
+        <source media="(max-width: 769px)" srcset="./img/images/image-hero-tablet.png" />
+        <img src="./img/images/image-hero-desktop.png" alt="Unicorn Pool Float" />
+      </picture>
         </div>
   </div>
 <div class="container">
