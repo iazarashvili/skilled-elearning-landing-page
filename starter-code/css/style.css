@@ -56,6 +56,8 @@ color: #13183F;
 .inner-contaier {
     margin-top: 252px;
     margin-left: 165px;
+    width: 457px;
+    height: 359px;
     
 }
 
@@ -100,6 +102,14 @@ color: #83869A;
 }
 
 .courses-text{
+}
+
+.image-hero-container {
+    position: absolute;
+    right: -169px;
+    top: -110px;
+}
+
+.image-hero-desctop {
     
-    padding-top: 29px;
 }
